@@ -1,0 +1,23 @@
+Package: m6APrediction
+Type: Package
+Title: Predict RNA m6A Sites with a Random Forest Model
+Version: 1.0.0
+Authors@R: c(
+    person("Zhengtao", "Qi", email = "Zhengtao.Qi24@student.xjtlu.edu.cn",
+           role = c("aut", "cre")),
+    person("Zhen", "Wei", role = "ctb",
+           comment = "BIO215 teaching model, example data and original prediction functions"))
+Description: Provides batch and single-site prediction of RNA N6-methyladenosine
+    status using a supplied random forest and seven input features. Includes
+    the fitted teaching model, example feature data and documented prediction
+    functions for reproducible educational use. Model scores are intended for
+    research exploration and do not establish experimental or clinical validity.
+License: MIT + file LICENSE
+Depends: R (>= 3.5.0)
+Imports: randomForest, stats
+URL: https://github.com/qzt1237654/m6APrediction
+BugReports: https://github.com/qzt1237654/m6APrediction/issues
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Config/roxygen2/version: 8.1.0
+NeedsCompilation: no
