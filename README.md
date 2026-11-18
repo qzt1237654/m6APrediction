@@ -226,7 +226,7 @@ R CMD check --no-manual m6APrediction_1.0.0.tar.gz
 
 ## Author and attribution
 
-Zhengtao Qi, student ID 2468844, BIO215 Interim Report 3.
+[Zhengtao Qi](https://github.com/qzt1237654), student ID 2468844, BIO215 Interim Report 3.
 Contact: Zhengtao.Qi24@student.xjtlu.edu.cn
 
 The fitted `rf_fit.rds`, input example and original three prediction functions
